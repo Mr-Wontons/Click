@@ -1,0 +1,459 @@
+.inventory{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    text-shadow: .5px .5px 1px #606060;
+}
+
+.cornucopiaInv{
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+
+.itemUpgrades{
+    display: grid;
+    grid-template-columns: repeat(10, 96px);
+    margin-top: 10px;
+    margin-right: 850px;
+}
+
+.store{
+    position: fixed;
+    display: block;
+    grid-template-columns: repeat(3, 108px);
+    margin-top: 0px;
+    margin-left: 1050px; 
+    top: 0px;
+}
+
+.sellItems{
+    display: grid;
+    grid-template-columns: repeat(10, 108px);
+    margin-top: 10px;
+    margin-right: 850px; 
+}
+
+.upgrades{
+    display: grid;
+    grid-template-columns: repeat(10, 96px);
+    margin-top: 10px;
+    margin-right: 850px;
+}
+
+.items{
+    display: grid;
+     grid-template-columns: repeat(10, 96px);
+     margin-top: 10px;
+}
+
+.cornucopia{
+    position: absolute;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    right: 550px;
+    top: 200px;
+}
+
+.achievements{
+    display: none;
+}
+
+.achievementsContainer img{
+    display: inline;
+    height: 64px;
+    width: 64px;
+    border: 3px solid black;
+}
+
+.achievementsContainer{
+    display:inline;
+}
+
+.clickerAA1{
+    display: inline-block;
+}
+
+#clickerA1{
+    display: inline;
+    position: relative;
+}
+
+#clickerA1:hover #clickerAD1{
+    display: inline-block;
+}
+
+#clickerAD1{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 64px;
+    height: 64px;
+    top: -55.5px;
+    left: 0px;
+    border: 3px solid black;
+    background-color: white;
+    display: none;
+}
+
+.clickerAA2{
+    display: inline-block;
+}
+
+#clickerA2{
+    display: inline;
+    position: relative;
+}
+
+#clickerA2:hover #clickerAD2{
+    display: inline-block;
+}
+
+#clickerAD2{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 64px;
+    height: 64px;
+    top: -55.5px;
+    left: 0px;
+    border: 3px solid black;
+    background-color: white;
+    display: none;
+}
+
+.clickaxeAA1{
+    display: inline-block;
+}
+
+#clickaxeA1{
+    display: inline;
+    position: relative;
+}
+
+#clickaxeA1:hover #clickaxeAD1{
+    display: inline-block;
+}
+
+#clickaxeAD1{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 64px;
+    height: 64px;
+    top: -55.5px;
+    left: 0px;
+    border: 3px solid black;
+    background-color: white;
+    display: none;
+}
+
+.clickaxeAA2{
+    display: inline-block;
+}
+
+#clickaxeA2{
+    display: inline;
+    position: relative;
+}
+
+#clickaxeA2:hover #clickaxeAD2{
+    display: inline-block;
+}
+
+#clickaxeAD2{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 64px;
+    height: 64px;
+    top: -55.5px;
+    left: 0px;
+    border: 3px solid black;
+    background-color: white;
+    display: none;
+}
+
+.smelterAA1{
+    display: inline-block;
+}
+
+#smelterA1{
+    display: inline;
+    position: relative;
+}
+
+#smelterA1:hover #smelterAD1{
+    display: inline-block;
+}
+
+#smelterAD1{
+    position: absolute;
+    color: black;
+    font-size: 10px;
+    width: 64px;
+    height: 64px;
+    top: -55.5px;
+    left: 0px;
+    border: 3px solid black;
+    background-color: white;
+    display: none;
+}
+
+.smelterAA2{
+    display: inline-block;
+}
+
+#smelterA2{
+    display: inline;
+    position: relative;
+}
+
+#smelterA2:hover #smelterAD2{
+    display: inline-block;
+}
+
+#smelterAD2{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 64px;
+    height: 64px;
+    top: -55.5px;
+    left: 0px;
+    border: 3px solid black;
+    background-color: white;
+    display: none;
+}
+
+.solderAA1{
+    display: inline-block;
+}
+
+#solderA1{
+    display: inline;
+    position: relative;
+}
+
+#solderA1:hover #solderAD1{
+    display: inline-block;
+}
+
+#solderAD1{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 64px;
+    height: 64px;
+    top: -55.5px;
+    left: 0px;
+    border: 3px solid black;
+    background-color: white;
+    display: none;
+}
+
+.solderAA2{
+    display: inline-block;
+}
+
+#solderA2{
+    display: inline;
+    position: relative;
+}
+
+#solderA2:hover #solderAD2{
+    display: inline-block;
+}
+
+#solderAD2{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    width: 64px;
+    height: 64px;
+    top: -55.5px;
+    left: 0px;
+    border: 3px solid black;
+    background-color: white;
+    display: none;
+}
+
+#returnA{
+    position: absolute;
+    top: 655px;
+    left: 1280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#aClickaxes{
+    position: fixed;
+    right: 525px;
+}
+
+#aCliron{
+    position: fixed;
+    right: 480px;
+}
+
+#aClewery{
+    position: fixed;
+    right: 470px; 
+}
+
+.autoMachines{
+    position: absolute;
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    right: 640px;
+    top: 250px;
+}
+
+#bClickaxe{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#bSmelter{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#bSolder{
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
+
+#nextBtn{
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 450px;
+}
+
+#prevBtn{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+
+#clikc{
+    display: block;
+    background-image: url("./Images/Cursor.png");
+    background-size: contain;
+    position: relative;
+    transition: all .2s ease-in-out;
+    height: 192px;
+    width: 192px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 3;
+}
+
+#clikc:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+#clikc:active{
+    transform: scale(0.99);
+}
+
+#mineClickstone{
+    display: block;
+    background-image: url("./Images/Clickaxe.png");
+    background-size: contain;
+    position: relative;
+    top: 15px;
+    right: 0px;
+    transition: all .2s ease-in-out;
+    height: 192px;
+    width: 192px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 2;
+}
+
+#mineClickstone:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+#mineClickstone:active{
+    transform: scale(0.99);
+}
+
+#smeltCliron{
+    display: block;
+    background-image: url("./Images/Smelter.png");
+    background-size: contain;
+    position: relative;
+    top: 15px;
+    right: 0px;
+    transition: all .2s ease-in-out;
+    height: 192px;
+    width: 192px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+#smeltCliron:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+#smeltCliron:active{
+    transform: scale(0.99);
+}
+
+#solderClewery{
+    display: block;
+    background-image: url("./Images/Clewery.png");
+    background-size: contain;
+    position: relative;
+    top: 15px;
+    right: 0px;
+    transition: all .2s ease-in-out;
+    height: 192px;
+    width: 192px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 2;
+}
+
+#solderClewery:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+#solderClewery:active{
+    transform: scale(0.99);
+}
+
+button{
+    background-color: #B5B5B5;
+    font-size: 18px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 5px;
+}
+
+button:hover{
+    background-color: #D4D4D4 !important;
+    cursor: pointer;
+}

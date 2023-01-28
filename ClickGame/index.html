@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <title>Click</title>
+    <link rel="icon" type="image/png" href="./Images/WebIcon.png">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="content">
+        <div class="menus">
+            <div class="main">
+                <div class="clickButtons">
+                    <div class="unselectable" id="clikc"></div>
+                    <div class="unselectable" id="mineClickstone"></div>
+                    <div class="unselectable" id="smeltCliron"></div>
+                    <div class="unselectable" id="solderClewery"></div>
+                </div>
+
+                <div id="inventory" class="inventory">
+                    <p id="cliks">Cliks: 0</p>
+                    <p id="clics">You now own 0 Clics</p>
+                    <p id="clickstone"></p>
+                    <p id="cliron"></p>
+                    <p id="clewery"></p>
+                </div>
+
+                <div class="cornucopia">
+                    <p  id="aClickers"></p>
+                    <p  id="aClickaxes"></p>
+                    <p  id="aCliron"></p>
+                    <p id="aClewery"></p>
+                </div>
+    
+                <div class="autoMachines">
+                    <p id="bCursor"></p>
+                    <p id="bClickaxe"></p>
+                    <p id="bSmelter"></p>
+                    <p id="bSolder"></p>
+                </div>
+                
+                <button class="moveBtn" id="prevBtn"><</button>
+                <button class="moveBtn" id="nextBtn">></button>
+                <button id="vAchievements">Achievements</button>
+                <button id="saveGame">Save Game</button>       
+                <button id="resetGame">Reset Game</button>   
+                    
+                <div class="store">
+                    <div class="sellItems">
+                        <button id="sellAll" type="disabled">Sell All Clics $1</button>
+                        <button id="sellAlls" type="disabled">Sell All Clickstone $4</button>
+                        <button id="sellAlli" type="disabled">Sell All Cliron $10</button>
+                        <button id="sellAllj" type="disabled">Sell All Clewery $35</button>
+                        
+                    </div>
+                    <div class="items">
+                        <button type="disabled" id="buyClickaxe">Buy Clickaxe $350</button>
+                        <button type="disabled" id="buyClironSmelter">Buy Cliron Smelter $2500</button>
+                        <button type="disabled" id="buyClewerySolder">Buy Clewery Solder $30000</button>
+                    </div>
+                    <div class="upgrades">
+                        <button type="disabled" id="autoClicker">Buy 1 Clikcer $100</button>
+                        <button type="disabled" id="autoClickaxe">Buy 1 Auto Clickaxe $550</button>
+                        <button type="disabled" id="autoClironSmelts">Buy 1 Auto Cliron Smelter $7500</button>
+                        <button type="disabled" id="autoClewerySolder">Buy 1 Auto Solder $50000</button>
+                    </div>
+                    <div class="itemUpgrades">
+                        <button type="disabled" id="doubleClickPow">Double Clickers & Clicking Power $350</button>
+                        <button type="disabled" id="doubleAutoClickaxes">Double Auto Clickaxes $2500</button>
+                        <button type="disabled" id="doubleAutoClironSmelters">Double Auto Smelters $30000</button>
+                        <button type="disabled" id="doubleAutoClewery">Double Auto Solders $100000</button>
+                    </div>
+                </div>
+                
+            </div>
+        
+            <div class="achievements">
+                <div class="achievementsContainer">
+                    <div id="clickerA1" class="clickerAA1">
+                        <img src="./Images/Cursor.png" class="clickerAA1">
+                        <div class="clickerAA1" id="clickerAD1">"Clikc"<br>Click the Click</div>
+                    </div>
+
+                    <div id="clickerA2" class="clickerAA2">
+                        <img src="./Images/CursorA2.png" class="clickerAA2">
+                        <div class="clickerAA2"id="clickerAD2">"Let Him Cook"<br>Have an Auto Clikcer</div>
+                    </div>
+
+                    <div id="clickaxeA1" class="clickaxeAA1">
+                        <img src="./Images/Clickaxe.png" class="clickaxeAA1">
+                        <div class="clickaxeAA1" id="clickaxeAD1">"Stone Finger"<br>Mine Clickstone</div>
+                    </div>
+
+                    <div id="clickaxeA2" class="clickaxeAA2">
+                        <img src="./Images/ClickaxeA2.png" class="clickaxeAA2">
+                        <div class="clickaxeAA2" id="clickaxeAD2">"Minrs"<br>Have a Miner</div>
+                    </div>
+
+                    <div id="smelterA1" class="smelterAA1">
+                        <img src="./Images/Smelter.png" class="smelterAA1">
+                        <div class="smelterAA1" id="smelterAD1">"Now REALLY Let Him Cook"<br>Smelt a Cliron Clingot</div>
+                    </div>
+
+                    <div id="smelterA2" class="smelterAA2">
+                        <img src="./Images/SmelterA2.png" class="smelterAA2">
+                        <div class="smelterAA2" id="smelterAD2">"Clingot"<br>Have a Blacksmith</div>
+                    </div>
+
+                    <div id="solderA1" class="solderAA1">
+                        <img src="./Images/Clewery.png" class="solderAA1">
+                        <div class="solderAA1" id="solderAD1">"Fashion Industry"<br>Make Clewery</div>
+                    </div>
+
+                    <div id="solderA2" class="solderAA2">
+                        <img src="./Images/CleweryA2.png" class="solderAA2">
+                        <div class="solderAA2" id="solderAD2">"Expert Gemologist"<br>Have a Jeweler</div>
+                    </div>
+
+                </div>
+                 
+                <button id="returnA">Return to Main</button>
+                </div> 
+
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
